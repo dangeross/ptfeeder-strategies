@@ -78,8 +78,8 @@
     "ASellStrategy": "GAIN",
     "ASellValue": "1.25",
 
-    "BuyMinChangePercentage": "0",
-    "BuyMaxChangePercentage": "1",
+    "BuyMinChangePercentage": "-10",
+    "BuyMaxChangePercentage": "15",
 
     "MinBuyPrice": "0.0000006",
     "MinBuyVolume": "1000",
