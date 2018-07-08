@@ -24,7 +24,6 @@
     "BtcDust": "0.00205",
     "EthDust": "0.0205",
     "BnbDust": "0.205",
-    "UsdtDust": "1.05",
 
     "DcaKeepBalance": "0",
     "DcaKeepBalancePercentage": "0",
