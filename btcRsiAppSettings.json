@@ -25,6 +25,7 @@
     "BtcDust": "0.00205",
     "EthDust": "0.0205",
     "BnbDust": "0.205",
+    "UsdtDust": "1.05",
 
     "DcaKeepBalance": "0",
     "DcaKeepBalancePercentage": "0",
@@ -60,8 +61,8 @@
   "Defaults": {
     //"SellOnlyModeEnabled": "true",
 
-    "InitialCost": "0",
-    "InitialCostPercentage": "0.2",
+    "InitialCost": "0.002",
+    "InitialCostPercentage": "0",
 
     "ABuyStrategy": "LOWBB",
     "ABuyValue": "5",
