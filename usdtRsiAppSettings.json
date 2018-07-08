@@ -4,7 +4,7 @@
 
     "MaxTrailingProfit": "0.277",
     "MinTrailingProfit": "0.01",
-    "MaxTrailingBuy": "0.277",
+    "MaxTrailingBuy": "0.177",
     "MinTrailingBuy": "0.01",
 
     "HiddenCoins": "BNB,TUSD",
@@ -64,10 +64,10 @@
     "InitialCostPercentage": "0",
 
     "ABuyStrategy": "LOWBB",
-    "ABuyValue": "5",
+    "ABuyValue": "15",
     "ABuyValueLimit": "-45",
     "BBuyStrategy": "RSI",
-    "BBuyValue": "28",
+    "BBuyValue": "31",
     "BBuyValueLimit": "1",
 
     "MaxBuySpread": "1",
@@ -93,7 +93,7 @@
     "DcaTrailingProfit": "0.1",
 
     "DcaABuyStrategy": "RSI",
-    "DcaABuyValue": "30",
+    "DcaABuyValue": "32",
     "DcaABuyValueLimit": "0",
 
     "DcaASellStrategy": "GAIN",
@@ -319,7 +319,7 @@
         "MaxTopCoinAverageChange": "-1.5",
         "Override": {
           "MaxTradingPairs": "1",
-          "DcaABuyValue": "20"
+          "DcaABuyValue": "25"
         }
       },
       {
@@ -335,7 +335,7 @@
           "ASellValue": "1.5",
           "DcaASellValue": "1.25",
           "DcaBSellStrategy": "RSI",
-          "DcaBSellValue": "60"
+          "DcaBSellValue": "70"
         }
       },
       {
@@ -347,7 +347,7 @@
           "ASellValue": "1.75",
           "DcaASellValue": "1.5",
           "DcaBSellStrategy": "RSI",
-          "DcaBSellValue": "70"
+          "DcaBSellValue": "75"
         }
       }
     ]
