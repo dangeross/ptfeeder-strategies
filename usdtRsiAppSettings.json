@@ -17,7 +17,7 @@
   "Common": {
     "KeepBalance": "0",
     "KeepBalancePercentage": "0",
-    "MaxTradingPairs": "1",
+    "MaxTradingPairs": "2",
     "OrderbookProfitCalculation": "true",
     "StartBalance": "1213",
 
