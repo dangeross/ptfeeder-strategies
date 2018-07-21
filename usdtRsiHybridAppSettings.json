@@ -232,8 +232,10 @@
       {
         "Name": "Bull",
         "MaxVwapTrendChange": "5",
-        "ASellValueOffset": "-50",
-        "DcaASellValueOffset": "-25",
+        "MinBuyVolumeOffset": "-15",
+        "ASellValueOffset": "50",
+        "DcaABuyValueOffset": "25",
+        "DcaASellValueOffset": "25",
         "Override": {
           "BSellStrategy": "RSI",
           "BSellValue": "70",
@@ -244,9 +246,10 @@
       {
         "Name": "Super Bull",
         "MaxVwapTrendChange": "10000",
-        "MinBuyVolumeOffset": "-25",
-        "ASellValueOffset": "-75",
-        "DcaASellValueOffset": "-50",
+        "MinBuyVolumeOffset": "-30",
+        "ASellValueOffset": "75",
+        "DcaABuyValueOffset": "33",
+        "DcaASellValueOffset": "50",
         "Override": {
           "BSellStrategy": "RSI",
           "BSellValue": "75",
