@@ -240,6 +240,8 @@
           "MaxTradingPairs": "1",
           "MinBuyVolume": "750",
           "ASellValue": "1.5",
+          "BSellStrategy": "RSI",
+          "BSellValue": "70",
           "DcaASellValue": "1.25",
           "DcaBSellStrategy": "RSI",
           "DcaBSellValue": "70"
@@ -253,6 +255,8 @@
           "MaxTradingPairs": "1",
           "MinBuyVolume": "750",
           "ASellValue": "1.75",
+          "BSellStrategy": "RSI",
+          "BSellValue": "75",
           "DcaASellValue": "1.5",
           "DcaBSellStrategy": "RSI",
           "DcaBSellValue": "75"
@@ -323,7 +327,10 @@
           "Weight": "6",
           "ABuyValueOffset": "33",
           "BBuyValueOffset": "-25",
-          "ASellValueOffset": "-25"
+          "ASellValueOffset": "-25",
+          "BSellValueOffset": "-25",
+          "DcaASellValueOffset": "-25",
+          "DcaBSellValueOffset": "-25"
         }
       }
     ]
@@ -348,7 +355,10 @@
         "Override": {
           "Weight": "5",
           "ABuyValueOffset": "-25",
-          "ASellValueOfset": "25"
+          "ASellValueOfset": "25",
+          "BSellValueOfset": "25",
+          "DcaASellValueOfset": "25",
+          "DcaBSellValueOfset": "25"
         }
       }
     ]
