@@ -2,9 +2,9 @@
   "PtFeeder": {
     "BaseCurrency": "BTC",
 
-    "MaxTrailingProfit": "0.277",
+    "MaxTrailingProfit": "0.5",
     "MinTrailingProfit": "0.01",
-    "MaxTrailingBuy": "0.177",
+    "MaxTrailingBuy": "0.5",
     "MinTrailingBuy": "0.01",
 
     "HiddenCoins": "BNB,WAN,NANO,EOS",
@@ -209,55 +209,49 @@
     "Configs": [
       {
         "Name": "Super Bear",
-        "MaxTopCoinAverageChange": "-3",
-        "MaxBaseCoinPriceChange": "-1.75",
-        "Override": {
-          "Weight": "6",
-          "SellOnlyModeEnabled": "true",
-          "DcaEnabled": "false"
-        }
+        "MaxVwapTrendChange": "-3",
+        "KeepBalancePercentageOffset": "40",
+        "MaxTradingPairsOffset": "-50",
+        "MinBuyVolumeOffset": "100",
+        "MinBuyPriceOffset": "150",
+        "ABuyValueOffset": "-100",
+        "BBuyValueOffset": "-100",
+        "DcaABuyValueOffset": "-100"
       },
       {
         "Name": "Bear",
-        "MaxTopCoinAverageChange": "-1.75",
-        "MaxBaseCoinPriceChange": "-1",
-        "Override": {
-          "Weight": "5",
-          "MaxTradingPairs": "1",
-          "DcaABuyValue": "25"
-        }
+        "MaxVwapTrendChange": "-0.5",
+        "KeepBalancePercentageOffset": "20",
+        "MaxTradingPairsOffset": "-25",
+        "ABuyValueOffset": "-33",
+        "BBuyValueOffset": "-33",
+        "DcaABuyValueOffset": "-50"
       },
       {
         "Name": "Boring",
-        "MaxTopCoinAverageChange": "1",
-        "MinBaseCoinPriceChange": "0"
+        "MaxVwapTrendChange": "1"
       },
       {
         "Name": "Bull",
-        "MaxTopCoinAverageChange": "1.75",
-        "MinBaseCoinPriceChange": "1.25",
+        "MaxVwapTrendChange": "5",
+        "ASellValueOffset": "-50",
+        "DcaASellValueOffset": "-25",
         "Override": {
-          "MaxTradingPairs": "1",
-          "MinBuyVolume": "750",
-          "ASellValue": "1.5",
           "BSellStrategy": "RSI",
           "BSellValue": "70",
-          "DcaASellValue": "1.25",
           "DcaBSellStrategy": "RSI",
           "DcaBSellValue": "70"
         }
       },
       {
         "Name": "Super Bull",
-        "MaxTopCoinAverageChange": "3",
-        "MinBaseCoinPriceChange": "1.75",
+        "MaxVwapTrendChange": "10000",
+        "MinBuyVolumeOffset": "-25",
+        "ASellValueOffset": "-75",
+        "DcaASellValueOffset": "-50",
         "Override": {
-          "MaxTradingPairs": "1",
-          "MinBuyVolume": "750",
-          "ASellValue": "1.75",
           "BSellStrategy": "RSI",
           "BSellValue": "75",
-          "DcaASellValue": "1.5",
           "DcaBSellStrategy": "RSI",
           "DcaBSellValue": "75"
         }
