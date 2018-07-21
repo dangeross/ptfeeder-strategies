@@ -201,108 +201,7 @@
     "DcaBuyPercentage97": "1.03092783505155",
     "DcaBuyPercentage98": "1.02040816326531",
     "DcaBuyPercentage99": "1.01010101010101",
-    "DcaBuyPercentage100": "1",
-
-    "DcaASellValue1": "1",
-    "DcaASellValue2": "0.99",
-    "DcaASellValue3": "0.98",
-    "DcaASellValue4": "0.97",
-    "DcaASellValue5": "0.96",
-    "DcaASellValue6": "0.95",
-    "DcaASellValue7": "0.94",
-    "DcaASellValue8": "0.93",
-    "DcaASellValue9": "0.92",
-    "DcaASellValue10": "0.91",
-    "DcaASellValue11": "0.9",
-    "DcaASellValue12": "0.89",
-    "DcaASellValue13": "0.88",
-    "DcaASellValue14": "0.87",
-    "DcaASellValue15": "0.86",
-    "DcaASellValue16": "0.85",
-    "DcaASellValue17": "0.84",
-    "DcaASellValue18": "0.83",
-    "DcaASellValue19": "0.82",
-    "DcaASellValue20": "0.81",
-    "DcaASellValue21": "0.8",
-    "DcaASellValue22": "0.79",
-    "DcaASellValue23": "0.78",
-    "DcaASellValue24": "0.77",
-    "DcaASellValue25": "0.76",
-    "DcaASellValue26": "0.75",
-    "DcaASellValue27": "0.74",
-    "DcaASellValue28": "0.73",
-    "DcaASellValue29": "0.72",
-    "DcaASellValue30": "0.71",
-    "DcaASellValue31": "0.7",
-    "DcaASellValue32": "0.69",
-    "DcaASellValue33": "0.68",
-    "DcaASellValue34": "0.67",
-    "DcaASellValue35": "0.66",
-    "DcaASellValue36": "0.65",
-    "DcaASellValue37": "0.64",
-    "DcaASellValue38": "0.63",
-    "DcaASellValue39": "0.62",
-    "DcaASellValue40": "0.61",
-    "DcaASellValue41": "0.6",
-    "DcaASellValue42": "0.59",
-    "DcaASellValue43": "0.58",
-    "DcaASellValue44": "0.57",
-    "DcaASellValue45": "0.56",
-    "DcaASellValue46": "0.55",
-    "DcaASellValue47": "0.54",
-    "DcaASellValue48": "0.53",
-    "DcaASellValue49": "0.52",
-    "DcaASellValue50": "0.51",
-    "DcaASellValue51": "0.5",
-    "DcaASellValue52": "0.49",
-    "DcaASellValue53": "0.48",
-    "DcaASellValue54": "0.47",
-    "DcaASellValue55": "0.46",
-    "DcaASellValue56": "0.45",
-    "DcaASellValue57": "0.44",
-    "DcaASellValue58": "0.43",
-    "DcaASellValue59": "0.42",
-    "DcaASellValue60": "0.41",
-    "DcaASellValue61": "0.4",
-    "DcaASellValue62": "0.39",
-    "DcaASellValue63": "0.38",
-    "DcaASellValue64": "0.37",
-    "DcaASellValue65": "0.36",
-    "DcaASellValue66": "0.35",
-    "DcaASellValue67": "0.34",
-    "DcaASellValue68": "0.33",
-    "DcaASellValue69": "0.32",
-    "DcaASellValue70": "0.31",
-    "DcaASellValue71": "0.3",
-    "DcaASellValue72": "0.29",
-    "DcaASellValue73": "0.28",
-    "DcaASellValue74": "0.27",
-    "DcaASellValue75": "0.26",
-    "DcaASellValue76": "0.25",
-    "DcaASellValue77": "0.24",
-    "DcaASellValue78": "0.23",
-    "DcaASellValue79": "0.22",
-    "DcaASellValue80": "0.21",
-    "DcaASellValue81": "0.2",
-    "DcaASellValue82": "0.19",
-    "DcaASellValue83": "0.18",
-    "DcaASellValue84": "0.17",
-    "DcaASellValue85": "0.16",
-    "DcaASellValue86": "0.15",
-    "DcaASellValue87": "0.14",
-    "DcaASellValue88": "0.13",
-    "DcaASellValue89": "0.12",
-    "DcaASellValue90": "0.11",
-    "DcaASellValue91": "0.1",
-    "DcaASellValue92": "0.09",
-    "DcaASellValue93": "0.08",
-    "DcaASellValue94": "0.07",
-    "DcaASellValue95": "0.06",
-    "DcaASellValue96": "0.05",
-    "DcaASellValue97": "0.04",
-    "DcaASellValue98": "0.03",
-    "DcaASellValue99": "0.02",
-    "DcaASellValue100": "0.01"
+    "DcaBuyPercentage100": "1"
   },
   "MarketConditionsGrouping": {
     "Configs": [
@@ -316,7 +215,7 @@
       },
       {
         "Name": "Bear",
-        "MaxTopCoinAverageChange": "-1.5",
+        "MaxTopCoinAverageChange": "-1.75",
         "Override": {
           "MaxTradingPairs": "1",
           "DcaABuyValue": "25"
@@ -328,7 +227,7 @@
       },
       {
         "Name": "Bull",
-        "MaxTopCoinAverageChange": "1.5",
+        "MaxTopCoinAverageChange": "1.75",
         "Override": {
           "MaxTradingPairs": "1",
           "MinBuyVolume": "750",
@@ -356,10 +255,18 @@
     "Configs": [
       {
         "MaxPriceTrendPercentageChange": "-5",
-        "DcaEnabled": "false",
-        "DcaTrailingProfitOffset": "-10",
-        "SellOnlyModeEnabled": "true",
-        "TrailingProfitOffset": "-10"
+        "DcaTrailingProfitOffset": "-25",
+        "TrailingProfitOffset": "-25"
+      },
+      {
+        "MaxPriceTrendPercentageChange": "-4",
+        "DcaTrailingProfitOffset": "-20",
+        "TrailingProfitOffset": "-20"
+      },
+      {
+        "MaxPriceTrendPercentageChange": "-3",
+        "DcaTrailingProfitOffset": "-15",
+        "TrailingProfitOffset": "-15"
       },
       {
         "MaxPriceTrendPercentageChange": "-2",
@@ -372,10 +279,22 @@
     "Configs": [
       {
         "MaxPriceTrendPercentageChange": "-15",
-        "DcaTrailingProfitOffset": "-10",
         "SellOnlyModeEnabled": "true",
+        "DcaTrailingProfitOffset": "-30",
+        "TrailingProfitOffset": "-30"
+      },
+      {
+        "MaxPriceTrendPercentageChange": "-10",
+        "SellOnlyModeEnabled": "true",
+        "DcaTrailingProfitOffset": "-20",
+        "TrailingProfitOffset": "-20"
+      },
+      {
+        "MaxPriceTrendPercentageChange": "-5",
+        "DcaTrailingProfitOffset": "-10",
         "TrailingProfitOffset": "-10"
-      }
+      },
+
     ]
   },
   "NewCoinsGrouping": {
@@ -384,6 +303,57 @@
         "CoinAge": "5",
         "SellOnlyModeEnabled": "true",
         "TimeUnit": "Days"
+      }
+    ]
+  },
+  "AverageCandleSizeGrouping": {
+    "Configs": [
+      {
+        "MaxPercentageSizeOfPrice": "0.03",
+        "Override": {
+          "Weight": "6",
+          "ABuyValueOffset": "33",
+          "BBuyValueOffset": "-25",
+          "ASellValueOffset": "-25"
+        }
+      }
+    ]
+  },
+  "DownsideVolatilityGrouping": {
+    "Configs": [
+      {
+        "MaxChangeFromOpen": "0.2",
+        "Override": {
+          "Weight": "7",
+          "ABuyValueOffset": "33",
+          "BBuyValueOffset": "33"
+        }
+      }
+    ]
+  },
+  "MinCandleSizeGrouping": {
+    "Condition": "[pair.ActualTrailingProfit] + [pair.ActualTrailingBuy] > [config.MinPercentageSizeOfPrice]",
+    "Configs": [
+      {
+        "MinPercentageSizeOfPrice": "0.3",
+        "Override": {
+          "Weight": "5",
+          "ABuyValueOffset": "-25",
+          "ASellValueOfset": "25"
+        }
+      }
+    ]
+  },
+  "MinChangeFromOpen": {
+    "Condition": "[pair.ActualTrailingBuy] > [config.MinChangeFromOpen]",
+    "Configs": [
+      {
+        "MinChangeFromOpen": "0.275",
+        "Override": {
+          "Weight": "8",
+          "ABuyValueOffset": "-33",
+          "BBuyValueOffset": "-33"
+        }
       }
     ]
   }

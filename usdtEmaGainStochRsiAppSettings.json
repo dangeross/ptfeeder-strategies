@@ -1,25 +1,18 @@
 {
   "PtFeeder": {
-    // These are specific to PT feeder.
-
-    // This is needed by Feeder for its queries to the exchange and used as the MARKET for PT
     "BaseCurrency": "USDT",
-
-    // These are used as the boundaries for the Calculate Trailing calculations
     "MaxTrailingProfit": "0.27",
     "MinTrailingProfit": "0.05",
     "MaxTrailingBuy": "0.27",
     "MinTrailingBuy": "0.05",
 
-    "HiddenCoins": "BNB,TUSD", // coins that will be hidden from the PT Monitor
-    "ExcludedCoins": "BNB,TUSD", // coins you don't want PTF to create settings for. These will have no config generated and will appear in watchmode
-    "SomOnlyCoins": "",
-    "MinutesForLongerTermTrend": "720", // minutes to measure trend for longer term trends
-    "MinutesToMeasureTrend": "60", // minutes to measure trend for base coin trend, PriceTrendChange and volatility calc
-    "TopCurrenciesToCheck": "5" // number of pairs to check from your exchange for MaxTopCoinAverageChange
+    "HiddenCoins": "BNB,TUSD",
+    "ExcludedCoins": "BNB,TUSD",
+    "SomOnlyCoins": "ETC,XRP",
+    "MinutesForLongerTermTrend": "720",
+    "MinutesToMeasureTrend": "60",
+    "TopCurrenciesToCheck": "5"
   },
-
-  // These are properties which will be translated directly without a DEFAULT at the start. ie are not pair specific
   "Common": {
 
     "KeepBalance": "0",
@@ -32,23 +25,9 @@
     "EthDust": "0.0205",
     "BnbDust": "0.205",
     "UsdtDust": "1.05",
-
-//    "ConsecutiveBuyTrigger": "10",
-//    "ConsecutiveSellTrigger": "4",
-
-    // Pairs
-//    "PriceTriggerMarket": "BTC",
-//    "PriceDropTrigger": "10.5",
-//    "DropRecoverTrigger": "8",
-//    "PriceRiseTrigger": "8",
-//    "RiseRecoverTrigger": "6.5",
-
-    //DCA
     "DcaKeepBalance": "0",
     "DcaKeepBalancePercentage": "0",
     "DcaOrderbookProfitCalculation": "true",
-
-    // Indicators
     "IndicatorsBbStd": "2",
     "IndicatorsBbCandlePeriod": "300",
     "IndicatorsBbLength": "30",
@@ -79,8 +58,6 @@
 
   "Defaults": {
     "SellOnlyModeEnabled": "true",
-
-    // Buy strategy properties
     "InitialCost": "0",
     "InitialCostPercentage": "3",
 
@@ -94,24 +71,14 @@
     "MaxBuySpread": "2",
     "MinOrderbookVolumePercentage": "101",
     "RebuyTimeout": "15",
-
-    // Sell strategy properties
     "ASellStrategy": "GAIN",
     "ASellValue": "1.5",
 
     "BuyMinChangePercentage": "-10",
     "BuyMaxChangePercentage": "15",
-
-    // coin filters
     "MinBuyPrice": "0",
     "MinBuyVolume": "1000",
-
-    // DCA Properties
-
-    //buy
     "DcaMaxBuyTimes": "3",
-
-    // DCA buy strategies
     "DcaABuyStrategy": "ANDERSON",
     "DcaBBuyStrategy": "STOCHRSI",
     "DcaBBuyValue": "0.25",
@@ -133,11 +100,6 @@
     "DcaASellValue1": "0.8",
     "DcaASellValue2": "0.6",
     "DcaASellValue3": "0.4",
-
-    //"DcaStopLossTrigger": "-3",
-    //"DcaStopLossTimeout": "60",
-
-    // DCA sell strategies
     "DcaASellStrategy": "GAIN",
     "DcaASellValue": "1",
 
@@ -165,8 +127,6 @@
           "DcaBuyTrigger1": "-2",
           "DcaBuyTrigger2": "-2.75",
           "DcaBuyTrigger3": "-3.5",
-
-          //"DcaStopLossTrigger": "-5",
 
           "DcaTakeProfitPercent": "0.75"
         }
