@@ -314,15 +314,12 @@
     "Configs": [
       {
         "MaxPercentageSizeOfPrice": "0.03",
-        "Override": {
-          "Weight": "6",
-          "ABuyValueOffset": "33",
-          "BBuyValueOffset": "-25",
-          "ASellValueOffset": "-25",
-          "BSellValueOffset": "-25",
-          "DcaASellValueOffset": "-25",
-          "DcaBSellValueOffset": "-25"
-        }
+        "ABuyValueOffset": "33",
+        "BBuyValueOffset": "-25",
+        "ASellValueOffset": "-25",
+        "BSellValueOffset": "-25",
+        "DcaASellValueOffset": "-25",
+        "DcaBSellValueOffset": "-25"
       }
     ]
   },
@@ -330,11 +327,8 @@
     "Configs": [
       {
         "MaxChangeFromOpen": "0.2",
-        "Override": {
-          "Weight": "7",
-          "ABuyValueOffset": "33",
-          "BBuyValueOffset": "33"
-        }
+        "ABuyValueOffset": "33",
+        "BBuyValueOffset": "33"
       }
     ]
   },
@@ -343,14 +337,11 @@
     "Configs": [
       {
         "MinPercentageSizeOfPrice": "0.3",
-        "Override": {
-          "Weight": "5",
-          "ABuyValueOffset": "-25",
-          "ASellValueOfset": "25",
-          "BSellValueOfset": "25",
-          "DcaASellValueOfset": "25",
-          "DcaBSellValueOfset": "25"
-        }
+        "ABuyValueOffset": "-25",
+        "ASellValueOfset": "25",
+        "BSellValueOfset": "25",
+        "DcaASellValueOfset": "25",
+        "DcaBSellValueOfset": "25"
       }
     ]
   },
@@ -359,11 +350,8 @@
     "Configs": [
       {
         "MinChangeFromOpen": "0.275",
-        "Override": {
-          "Weight": "8",
-          "ABuyValueOffset": "-33",
-          "BBuyValueOffset": "-33"
-        }
+        "ABuyValueOffset": "-33",
+        "BBuyValueOffset": "-33"
       }
     ]
   }
