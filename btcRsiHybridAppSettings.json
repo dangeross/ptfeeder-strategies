@@ -234,7 +234,7 @@
       },
       {
         "Name": "Boring",
-        "MaxVwapTrendChange": "1"
+        "MaxVwapTrendChange": "1.5"
       },
       {
         "Name": "Bull",
